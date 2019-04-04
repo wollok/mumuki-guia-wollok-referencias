@@ -1,10 +1,11 @@
-Ah, pero hay más tipos de referencias: los atributos. 
+Veamos si quedó claro.
 
-Por ejemplo, si la golondría `pepita` conoce siempre su ciudad actual...
+Por ejemplo, si `pepita` conoce su ciudad actual...
 
 ```wollok
 object pepita {
-   var ciudad
+   var ciudad = rosario
+   var energia = 100
    
    method ciudad(unaCiudad) {
       ciudad = unaCiudad
@@ -14,7 +15,7 @@ object pepita {
 }
 ```
 
-Y en algún momento esta pasa a ser `iruya`, el diagrama de objetos será el siguiente: 
+Y en algún momento su ciudad pasa a ser `iruya`, el diagrama de objetos será el siguiente: 
 
 <img src="https://github.com/pdep-utn/mumuki-guia-wollok-referencias/raw/master/assets/atributos.png" width="350"/>
 

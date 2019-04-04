@@ -1,5 +1,6 @@
 object pepita {
   var ciudad
+  var energia = 100
   method ciudad(unaCiudad) {
     ciudad = unaCiudad
   }
@@ -9,5 +10,9 @@ object pepita {
 }
 
 object iruya {
+  
+}
+
+object rosario {
   
 }

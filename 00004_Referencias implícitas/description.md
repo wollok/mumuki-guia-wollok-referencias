@@ -10,7 +10,7 @@ Sucede que hay muchos tipos de referencias, y una de ellas son las variables del
 saludo.capitalize().size()
 ```
 
-¡Simple! Cuando enviamos mensajes a objetos literales como el `2`, el `true` o `"hola"`, o expresiones, estamos conociendo a esos objetos a través de _referencias implícitas_, que son temporales (sólo existen durante ese envío de mensajes) y anónimas (no tienen un nombre asociado).
+¡Simple! Cuando enviamos mensajes a objetos literales como el `2`, el `true` o `"hola"`, o expresiones, estamos conociendo a esos objetos a través de _referencias implícitas_, que pueden ser temporales (sólo existen durante ese envío de mensajes) y anónimas (no tienen un nombre asociado).
 
 ```wollok
 "ni hao".capitalize() 

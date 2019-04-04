@@ -1,6 +1,11 @@
 Hasta ahora venimos insistiendo en que en objetos le enviamos mensajes a los objetos. ¡Y no mentimos!
 
-Sucede que en realidad las cosas son un poco más complejas, y no conocemos a los objetos directamente, sino a través de etiquetas llamadas _referencias_. Entonces cuando tenemos una declaración de variable como ésta...
+Sucede que en realidad las cosas son un poco más complejas. 
+Cuando decimos que una variable _vale_ algo, o que _contiene_ un valor, en realidad lo que sucede es que la variable es una etiqueta que hace _referencia_ a un objeto. 
+De esta manera, cuando enviamos un mensaje a una variable, le estamos enviando el mensaje al objeto al que la variable hace referencia.
+
+
+Entonces cuando tenemos una declaración de variable como ésta...
 
 ```wollok
 var saludo = "hola"
