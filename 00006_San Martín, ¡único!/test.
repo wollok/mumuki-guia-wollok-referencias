@@ -1,14 +1,15 @@
-test "existe referenciasRepetidas" {
+test 'libertador hace referencia a sanMartin' {
   /*...content...*/
-  referenciasRepetidas  
+  assert.equals(sanMartin, libertador)
 }
 
-test "referenciasRepetidas tiene tamaño 3" {
+test 'donJose hace referencia a sanMartin' {
   /*...content...*/
-  assert.equals(3, referenciasRepetidas.size())  
+  assert.equals(sanMartin, donJose)
 }
 
-test "todos los objetos de referenciasRepetidas son el mismo" {
+test 'San martin luchó una batalla' {
   /*...content...*/
-  assert.that(referenciasRepetidas.all { it => it === referenciasRepetidas.first()  })  
+  assert.equals(1, sanMartin.batallas())
+  
 }

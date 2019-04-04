@@ -15,19 +15,18 @@ object sanMartin {
   
 ```
 
+Y luego hacemos 
+` var libertador = sanMartin`
 
-> ¿Qué sucede si definís las siguientes variables...
 
-> * `ム var libertador = sanMartin`
-> * `ム var donJose = libertador`
+> Ahora, hacé vos un programa donde definas una nueva variable llamada `donJose` en la que tambíen asignes a `sanMartin`, y luego le envíes a `sanMartin` el mensaje `darBatalla()`. 
 
-> ... y luego hacés:
+> Podés hacer tus propias pruebas y ver qué pasa
 
+> * `ム libertador.batallas()`
+> * `ム donJose.batallas()`
 > * `ム sanMartin == libertador`
 > * `ム libertador == donJose`
-> * `ム libertador.darBatalla()`
-> * `ム sanMartin.batallas()`
-> * `ム donJose.batallas()`
 
 
 ¿Por qué? ¡Simple! Ambas variables son referencias que apuntan al mismo objeto, y además, el mismo nombre del objeto es también una referencia obvia al objeto. Existe un único San Martín que _es conocido_ de muchas maneras.
