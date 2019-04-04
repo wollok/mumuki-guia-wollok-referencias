@@ -22,5 +22,6 @@ object melisa {
 > ¿Melisa seguirá teniendo un novio flaquito como le gusta?
 >
 > Para pensar: 
+
 > * ¿Puede Melisa `cambiar` de novio? 
 > * ¿Cómo podría estar definido el nuevo objeto?   

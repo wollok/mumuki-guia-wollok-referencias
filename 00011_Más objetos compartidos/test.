@@ -5,6 +5,11 @@ test "el novio de melisa es fito" {
  assert.equals(fito, melisa.novio())
 }
 
+test "clotilde le dio de comer una vez a su nieto" {
+  /*...content...*/
+ assert.equals(81, fito.peso())
+}
+
 test "melisa no tiene un novio flaquito como le gusta " {
   /*...content...*/
  assert.notThat(melisa.novioEsFlaquitoComoLeGusta())
