@@ -14,9 +14,9 @@ test "el piano está inicialmente afinado" {
   assert.that(pianoFamiliar.estaAfinado())
 }
 
-test "después de tocar el piano 21 veces, ya no está afinado" {
+test "después de tocar el piano 22 veces, ya no está afinado" {
   jazmin.piano(pianoFamiliar)  
-  21.times {x=> jazmin.tocar() }
+  22.times {x=> jazmin.tocar() }
   assert.notThat(pianoFamiliar.estaAfinado())
 }
 
@@ -25,9 +25,9 @@ test "lucio entiende afinar" {
   assert.that(pianoFamiliar.estaAfinado())
 }
 
-test "después de tocar el piano 21 veces, y afinarlo durante 1 hora, está afinado" {
+test "después de tocar el piano 22 veces, y afinarlo durante 1 hora, está afinado" {
   jazmin.piano(pianoFamiliar)  
-  21.times {x=> jazmin.tocar() }
+  22.times {x=> jazmin.tocar() }
   lucio.afinar(pianoFamiliar, 1)
 
   assert.that(pianoFamiliar.estaAfinado())
@@ -52,7 +52,6 @@ test "después de tocar el piano 90 veces, y afinarlo durante 20 horas, está af
 test "la afinación máxima es 100 aunque afine el piano durante 743 horas" {
   lucio.afinar(pianoFamiliar, 743)
   jazmin.piano(pianoFamiliar)  
-  21.times {x=> jazmin.tocar() }
-  
+  22.times {x=> jazmin.tocar() }
   assert.notThat(pianoFamiliar.estaAfinado())
 }
