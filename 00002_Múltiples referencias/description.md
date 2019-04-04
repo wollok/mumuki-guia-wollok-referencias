@@ -8,7 +8,7 @@ var saludo = "hola"
 
 Como vemos, estamos asignado `otroSaludo` a `despedida`. ¿Qué significa esto? ¿Acabamos de copiar el objeto `"buen día"`, o en cambio simplemente le dimos una nueva etiqueta al mismo objeto? Dicho de otra forma: ¿hacen referencia ambas variables al mismo objeto? 
 
-> ¿Como lo podríamos averiguar? Declará las variables anteriores**...
+> ¿Como lo podríamos averiguar? Declará las variables anteriores...
 
 > ...y realizá las siguientes consultas:
 >

@@ -5,17 +5,13 @@ Cuando decimos que una variable _vale_ algo, o que _contiene_ un valor, en reali
 De esta manera, cuando enviamos un mensaje a una variable, le estamos enviando el mensaje al objeto al que la variable hace referencia.
 
 
-Entonces cuando tenemos una declaración de variable como ésta...
+Entonces cuando tenemos una declaración de variable como esta...
 
 ```wollok
 var saludo = "hola"
 ```
 
-...lo que estamos haciendo es _crear una referencia_ que _apunta_ al objeto `"hola"`, que representamos mediante una flechita:
-
-
-<img src="https://github.com/pdep-utn/mumuki-guia-wollok-referencias/raw/master/assets/unaReferencia.png" width="350"/>
-
+...lo que estamos haciendo es _crear una referencia_ que _apunta_ al objeto `"hola"`. 
 
 Y cuando tenemos... 
 
