@@ -8,7 +8,7 @@ object melisa {
       unNovio = novio
   }
   
-  method novio() {
+  method novio() { 
       return novio
   }
   method novioEsFlaquitoComoLeGusta() {

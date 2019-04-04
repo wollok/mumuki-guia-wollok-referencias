@@ -14,7 +14,9 @@ object melisa {
   method novio(unNovio) {
       unNovio = novio
   }
-  
+  method novio() {
+      return novio
+  } 
   method novioEsFlaquitoComoLeGusta() {
      return novio.peso() < 80
   }
