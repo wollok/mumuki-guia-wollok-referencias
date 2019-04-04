@@ -12,7 +12,7 @@ object melisa {
   var novio
    
   method novio(unNovio) {
-      unNovio = novio
+      novio = unNovio
   }
   method novio() {
       return novio
