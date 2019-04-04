@@ -1,9 +1,9 @@
-test "existe abuelaClotilde" {
-  abuelaClotilde
+test "existe clotilde" {
+  clotilde
 }
 
-test "abuelaClotilde entiende el mensaje nieto(unNieto)" {
-  abuelaClotilde.nieto(fito)
+test "clotilde entiende el mensaje nieto()" {
+  clotilde.nieto()
 }
 
 test "el novio de melisa es fito" {
@@ -11,9 +11,7 @@ test "el novio de melisa es fito" {
  assert.that(melisa.novio() == fito)
 }
 
-test "abuelaClotilde no debe inicializar por defecto a su nieto" {
-  assert.throwsException({abuelaClotilde.alimentarNieto()})
-}
+
 
 
 
