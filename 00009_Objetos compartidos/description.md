@@ -1,4 +1,4 @@
-Tenemos _objetos bien conocidos_ , uno para Fito y otro para su abuela Clotilde. 
+Tenemos un _objeto bien conocido_ , que representa a un tal Fito, que sabe hacer esto: 
 
 Por ejemplo: 
 
@@ -14,6 +14,6 @@ object fito {
 }
 ```
 
-> Veamos si va quedando claro. Declará un objeto `clotilde` que con el mensaje `nieto()` nos sepa decir quién es su nieto y que entienda un mensaje `alimentarNieto()`, que haga comer 2 veces a su nieto: primero con 2000 calorias, y luego con 1000 calorías; ¡el postre no podía faltar! :cake:.  
+> Declará un objeto `clotilde` que con el mensaje `nieto()` nos sepa decir quién es su nieto y que entienda un mensaje `alimentarNieto()`, que haga comer 2 veces a su nieto: primero con 2000 calorias, y luego con 1000 calorías; ¡el postre no podía faltar! :cake:.  
 
 

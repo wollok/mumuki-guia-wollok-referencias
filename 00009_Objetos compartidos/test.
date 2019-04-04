@@ -9,6 +9,7 @@ test "el nieto de abuelaClotilde es fito" {
 
 
 test "abuelaClotilde.alimentarNieto() incrementa lo engorda 3 kg" {
+ /*...content...*/
   clotilde.alimentarNieto()
   assert.equals(81, fito.peso())
 }
