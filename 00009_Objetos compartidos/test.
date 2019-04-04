@@ -3,13 +3,11 @@
 /*...extra...*/
 
 test "el nieto de abuelaClotilde es fito" {
- /*...content...*/
  assert.that(clotilde.nieto() == fito)
 }
 
 
 test "abuelaClotilde.alimentarNieto() incrementa lo engorda 3 kg" {
- /*...content...*/
   clotilde.alimentarNieto()
   assert.equals(81, fito.peso())
 }
