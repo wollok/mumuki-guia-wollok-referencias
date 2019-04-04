@@ -15,11 +15,11 @@ saludo.capitalize().size()
 ```wollok
 "ni hao".capitalize() 
         ^
-        +-- acá hay una referencia implícita al objeto "ni hao"
+        +-- referencia implícita al objeto "ni hao"
 
 saludo.capitalize().size()
                    ^
-                   +-- y acá, otra referencia implicita a "HOLA"
+                   +-- referencia implicita a "HOLA"
 ```
 
 

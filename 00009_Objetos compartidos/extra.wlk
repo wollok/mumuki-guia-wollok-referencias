@@ -1,5 +1,6 @@
 object fito {
   var peso = 78 
+  
   method comer(calorias) {
      peso = peso + calorias/1000
   }

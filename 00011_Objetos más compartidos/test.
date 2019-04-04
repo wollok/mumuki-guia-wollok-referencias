@@ -1,16 +1,14 @@
-test "existe clotilde" {
-  clotilde
-}
 
-test "clotilde entiende el mensaje nieto()" {
-  clotilde.nieto()
-}
 
 test "el novio de melisa es fito" {
   /*...content...*/
- assert.that(melisa.novio() == fito)
+ assert.equals(fito, melisa.novio())
 }
 
+test "melisa no tiene un novio flaquito como le gusta " {
+  /*...content...*/
+ assert.notThat(melisa.novioEsFlaquitoComoLeGusta())
+}
 
 
 
