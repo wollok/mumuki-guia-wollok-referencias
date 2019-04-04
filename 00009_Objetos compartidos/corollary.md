@@ -1,15 +1,16 @@
-En el programa que acabás de escribir, que probablemente se vea parecido a esto...
+:warning: Muchas veces, en lugar de decir...
 
-```javascript
-melisa.novio(fito)
-abuelaClotilde.nieto(fito)
+_enviar el mensaje `comer(2000)` al objeto apuntado por la referencia `fito`, vamos a decir...
 
-//si acá preguntaramos melisa.novioEsFlaquitoComoLeGusta(), respondería true
+_enviar un mensaje a la variable `fito`_
 
-3.times({ abuelaClotilde.alimentarNieto() })
-```
+...ó...
 
-...`fito` es un **objeto compartido**: tanto la abuela como su novia lo conocen. La consecuencia de esto es que cuando su abuela le da de comer, lo engorda, y su novia ve los cambios: éste método que antes devolvía `true`, ahora devuelve `false`. 
+_enviar un mensaje al objeto `fito`_
 
-Y esto tiene sentido: si un objeto _muta_ su estado, y lo expone de una u otra forma a través de mensajes, todos los que lo observen podrán ver el cambio. 
+...o simplemente...
+
+_enviar un mensaje a `fito`_
+
+...porque si bien no es del todo correcto, es más breve :sweat_smile:. Lo importante es que entiendas que *siempre* estamos enviando el mensaje al objeto a través de una referencia. 
 

@@ -1,6 +1,4 @@
-Veamos si quedó claro.
-
-Por ejemplo, si `pepita` conoce su ciudad actual...
+Recordemos a `pepita`, quien conoce su ciudad actual...
 
 ```wollok
 object pepita {

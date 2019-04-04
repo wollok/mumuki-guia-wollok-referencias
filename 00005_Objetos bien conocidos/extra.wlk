@@ -1,15 +1,19 @@
-object fito {
-  var peso = 70 
-  var cantidadDeLlamadas = 0
+object sanMartin {
+  var batallas = 0
+  method batallas(){ 
+    return batallas 
+  }
+  method darBatalla() { 
+    batallas = batallas + 1 
+  }
+}
   
-  method comer(calorias) {
-     peso += calorias  * 0.001
-     cantidadDeLlamadas++
+
+object agustin {
+  method jugar(){
+    sanMartin.darBatalla() 
   }
-  method peso() {
-    return peso
-  }
-  method cantidadDeLlamadas() {
-    return cantidadDeLlamadas
+  method estasCansado() {
+    return sanMartin.batallas() > 10
   }
 }

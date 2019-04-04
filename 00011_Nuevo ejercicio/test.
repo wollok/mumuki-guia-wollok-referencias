@@ -1,0 +1,19 @@
+test "existe abuelaClotilde" {
+  abuelaClotilde
+}
+
+test "abuelaClotilde entiende el mensaje nieto(unNieto)" {
+  abuelaClotilde.nieto(fito)
+}
+
+test "el novio de melisa es fito" {
+  /*...content...*/
+ assert.that(melisa.novio() == fito)
+}
+
+test "abuelaClotilde no debe inicializar por defecto a su nieto" {
+  assert.throwsException({abuelaClotilde.alimentarNieto()})
+}
+
+
+

@@ -4,20 +4,13 @@
 
 test "el nieto de abuelaClotilde es fito" {
  /*...content...*/
- assert.that(abuelaClotilde.nieto() === fito)
+ assert.that(clotilde.nieto() == fito)
 }
 
-test "el novio de melisa es fito" {
-  /*...content...*/
- assert.that(melisa.novio() === fito)
+
+test "abuelaClotilde.alimentarNieto() incrementa lo engorda 3 kg" {
+  clotilde.alimentarNieto()
+  assert.equals(81, fito.peso())
 }
 
-test "fito engordó" {
-  /*...content...*/
- assert.that(fito.peso() > 70)
-}
 
-test "abuelaClotilde alimentó 3 veces a fito" {
- /*...content...*/
- assert.equals(3, abuelaClotilde.vecesAlimentado())
-}

@@ -20,11 +20,12 @@ object agustin {
   method estasCansado() {
     return sanMartin.batallas() > 10
   }
+}
 ```
 
 A objetos como `agustin` y `sanMartin` se los conocen como _objetos bien conocidos_: cuando los declaramos no sólo describimos su comportamiento y estado (todo lo que está entre las llaves), sino que además les damos un nombre o etiqueta a través de la cual podemos conocerlos. ¿Te suena conocido?
 
-Esas etiquetas también son referencias :tada: son las referencias obvias. Son constantes y son globales, es decir que cualquier objeto otro objeto o programa puede utilizarla. 
+Esas etiquetas también son referencias :tada: son las referencias obvias. Son constantes y son globales, es decir que cualquier objeto o programa puede utilizarla. 
 
 Se puede ver cómo `agustin` le envía mensajes a `sanMartin` usando como referencia directamente en nombre del _objeto bien conocido_.
 
