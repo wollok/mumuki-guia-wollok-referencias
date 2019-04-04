@@ -1,1 +1,1 @@
-/*[IgnoreContentOnQuery]*/
+const otroSaludo = "buen día"
