@@ -1,3 +1,4 @@
+/*[IgnoreContentOnQuery]*/
 object pepita {
   var ciudad
   var energia = 100
