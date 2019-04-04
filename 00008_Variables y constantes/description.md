@@ -26,4 +26,4 @@ Una vez asignado su valor inicial, la constante `otroSaludo` no puede hacer refe
 
 > ¿Querés desafiar a Wollok?
 
-> Probá asignarle algo a `otroSaludo` y fijate qué sucede
+> * Probá asignarle algo a `otroSaludo` y fijate qué sucede
