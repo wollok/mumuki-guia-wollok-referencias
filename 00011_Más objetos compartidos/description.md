@@ -11,6 +11,7 @@ object melisa {
   method novio() { 
       return novio
   }
+  
   method novioEsFlaquitoComoLeGusta() {
      return novio.peso() < 80
   }
