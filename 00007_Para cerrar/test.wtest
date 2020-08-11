@@ -20,7 +20,7 @@ test "después de tocar el piano 23 veces, ya no está afinado" {
   assert.notThat(pianoFamiliar.estaAfinado())
 }
 
-test "lucio entiende afinar" {
+test "después que lucio afina 3 horas, el piano queda afinado" {
   lucio.afinar(pianoFamiliar, 3)
   assert.that(pianoFamiliar.estaAfinado())
 }
