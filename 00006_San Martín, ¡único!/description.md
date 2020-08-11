@@ -5,7 +5,7 @@ Definamos un objeto que represente a San Martín, con un atributo con la cantida
 ```wollok
 object sanMartin {
   var batallas = 0
-  method batallas(){ 
+  method batallas(){  
     return batallas 
   }
   method darBatalla() { 
@@ -15,11 +15,13 @@ object sanMartin {
   
 ```
 
-Y luego hacemos 
-` var libertador = sanMartin`
+> Probá hacer en la consola 
 
+> ` var libertador = sanMartin`
 
-> Ahora, hacé vos un programa donde definas una nueva variable llamada `donJose` en la que tambíen asignes a `sanMartin`, y luego le envíes a `sanMartin` el mensaje `darBatalla()`. 
+> y por si fuera poco, definí otra variable llamada `donJose` en la que tambíen asignes a `sanMartin`.
+
+> Por último, mandale a `sanMartin` el mensaje `darBatalla()`. 
 
 > Podés hacer tus propias pruebas y ver qué pasa
 
