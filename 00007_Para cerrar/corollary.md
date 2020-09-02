@@ -1,6 +1,7 @@
 ¡Ya sabés manejar referencias!
 
 Recordá: 
+
 * Un objeto puede ser conocido mediante diferentes referencias a la vez, pero el objeto es único.
 * Existen referencias con nombre, que pueden ser constantes y variables.
 * Existen referencias implícitas, es decir sin nombre. 
